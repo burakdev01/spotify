@@ -1,0 +1,92 @@
+export const exploreData = [
+  {
+    id: 1,
+    name: "Podcasts",
+    img: "https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa",
+    bgColor: "#006350",
+  },
+  {
+    id: 2,
+    name: "Live Events",
+    img: "https://concerts.spotifycdn.com/images/live-events_category-image.jpg",
+    bgColor: "#8400E7",
+  },
+  {
+    id: 3,
+    name: "Made For You",
+    img: "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+    bgColor: "#1E3164",
+  },
+  {
+    id: 4,
+    name: "New Releases",
+    img: "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+    bgColor: "#E8105B",
+  },
+  {
+    id: 5,
+    name: "Pop",
+    img: "https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768",
+    bgColor: "#148A06",
+  },
+  {
+    id: 6,
+    name: "Hip Hop",
+    img: "https://i.scdn.co/image/ab67fb8200005caf9e3dea60be755ccd97b7351f",
+    bgColor: "#4F3750",
+  },
+  {
+    id: 7,
+    name: "Mood",
+    img: "https://i.scdn.co/image/ab67fb8200005caf271f9d895003c5f5561c1354",
+    bgColor: "#E0128B",
+  },
+  {
+    id: 8,
+    name: "Trending",
+    img: "https://i.scdn.co/image/ab67fb8200005caf1867113f5218598847550acd",
+    bgColor: "#B02797",
+  },
+  {
+    id: 9,
+    name: "Charts",
+    img: "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+    bgColor: "#8C67AB",
+  },
+  {
+    id: 10,
+    name: "Dance/Electronic",
+    img: "https://i.scdn.co/image/ab67fb8200005cafdfdaac1cf9574a196ca25196",
+    bgColor: "#D74000",
+  },
+  {
+    id: 11,
+    name: "Rock",
+    img: "https://i.scdn.co/image/ab67fb8200005cafae7e69beb88f16969641b53e",
+    bgColor: "#E91528",
+  },
+  {
+    id: 12,
+    name: "Indie",
+    img: "https://i.scdn.co/image/ab67fb8200005cafa1a252e3a815b65778d8c2aa",
+    bgColor: "#E91528",
+  },
+  {
+    id: 13,
+    name: "Workout",
+    img: "https://i.scdn.co/image/ab67706f000000029249b35f23fb596b6f006a15",
+    bgColor: "#777777",
+  },
+  {
+    id: 14,
+    name: "Discover",
+    img: "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg",
+    bgColor: "#8C67AB",
+  },
+  {
+    id: 15,
+    name: "Country",
+    img: "https://i.scdn.co/image/ab67fb8200005cafc0d2222b4c6441930e1a386e",
+    bgColor: "#D74000",
+  },
+];

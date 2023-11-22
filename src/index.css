@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  @apply select-none;
+}
+
+body {
+  @apply bg-black  text-white;
+  /* min-height: -webkit-fill-available; */
+}
+
+svg {
+  @apply w-4 fill-[#BCBCBC] transition;
+}
+
+input,
+textarea {
+  -webkit-user-select: text; /* Chrome, Opera, Safari */
+  -moz-user-select: text; /* Firefox 2+ */
+  -ms-user-select: text; /* IE 10+ */
+  user-select: text; /* Standard syntax */
+}
+
+img {
+  @apply rounded object-cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.wrapper {
+  grid-template-areas: "left-sidebar main-view" "now-playing-bar now-playing-bar";
+  grid-template-columns: 17.5rem 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.sidebar {
+  grid-area: left-sidebar;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.main-view {
+  grid-area: main-view;
+}
+
+.footer {
+  grid-area: now-playing-bar;
+}
+
+/* .sticky {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+} */
